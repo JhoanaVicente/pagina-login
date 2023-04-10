@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(180, 65, 170, 0.793)
+}
+header {
+    display: flex;
+    padding: 5%;
+}
+img {
+    width: 28%;
+    height: 18%;
+}
+
+div {
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-top: .9em;
+}
+.main-form {
+    display: grid;
+    margin-top: 3em;
+    gap: 2.5em;
+    padding: .5em 3em;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+}
+
+.form-label {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(43px);
+    transition: transform .5s, color .3s;
+    font-size: larger; 
+}
+
+.form-submit {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+    background-color: rgba(236, 225, 21, 0.933);
+    cursor: pointer;
+}
+
+.noTienes {
+    font-size: 25px;
+    color: white;
+}
+
+.crea-tu {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+    padding: 6%;
+} 
+button {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+    width: 50%;
+    height: 25%;
+    color:rgb(44, 44, 137);
+    margin-top: 5%;
+    cursor: pointer;  
+}
+
+@media screen and (min-width:600px) {
+
+    img {
+        width: 16%;
+        height: 18%;
+    }
+
+    div {
+        flex-direction: row;
+    }
+
+    header {
+        padding: 1%;
+    }
+    .titulo {
+        font-size: 1.5rem;
+        margin-bottom: 10%;
+    }
+
+    .main-form {
+        height: 50px;
+        display: grid;
+        gap: 2.5em;
+        margin-right: 500px;
+    }
+
+    .form-input {
+        width: 55%;
+        font-size: 1rem;
+        padding: 0.6em 0.3em;
+        border: none;
+        outline: none;
+        margin-right: 55%;
+    }
+
+    .form-submit {
+        width: 55%;
+    }
+
+    .olvide {
+        width: 55%;
+        font-size: 1rem;
+        padding: 0.6em 0.3em;
+    }
+
+    .form-group {
+        position: relative;
+    }
+
+    footer {
+        margin-left: 650px;
+    }
+}
+
