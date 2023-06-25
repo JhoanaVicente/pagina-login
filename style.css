@@ -16,10 +16,12 @@ header {
 img {
     width: 28%;
     height: 18%;
+    margin-top: 35px;
 }
 
 div {
     text-align: center;
+    margin-left: 40px;
 }
 .titulo {
     text-align: center;
@@ -30,10 +32,7 @@ h1 {
     margin-top: .9em;
 }
 .main-form {
-    display: grid;
-    margin-top: 3em;
-    gap: 2.5em;
-    padding: .5em 3em;
+    gap: 2.5em;   
 }
 
 .form-group {
@@ -67,6 +66,11 @@ h1 {
     border-radius: .5em;
     background-color: rgba(236, 225, 21, 0.933);
     cursor: pointer;
+    margin-left: 29px;
+}
+
+.olvide {
+    cursor: pointer;
 }
 
 .noTienes {
@@ -78,7 +82,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     margin-top: 2%;
-    padding: 6%;
+    padding: 1%;
 } 
 button {
     font-weight: 300;
@@ -113,9 +117,8 @@ button {
     }
 
     .main-form {
-        height: 50px;
+        height: 0px;
         display: grid;
-        gap: 2.5em;
         margin-right: 500px;
     }
 
